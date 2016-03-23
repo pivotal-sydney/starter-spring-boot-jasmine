@@ -1,0 +1,56 @@
+{
+  "name": "starter-spring-boot-jasmine",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "Starter project for Spring Boot applications with Jasmine and Webdriver.io for web UI tests",
+  "homepage": "https://github.com/pivotal-sydney/starter-spring-boot-jasmine",
+  "bugs": "https://github.com/pivotal-sydney/starter-spring-boot-jasmine/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pivotal-sydney/starter-spring-boot-jasmine/"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.5.0",
+    "event-stream": "^3.3.2",
+    "express": "^4.13.3",
+    "serve-favicon": "^2.3.0",
+    "thenify": "^3.1.0"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.5.2",
+    "babel-eslint": "^4.1.6",
+    "babel-plugin-transform-object-assign": "^6.5.0",
+    "babel-plugin-transform-runtime": "^6.5.0",
+    "babel-plugin-transform-regenerator": "^6.5.2",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-es2015-loose": "^7.0.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "bluebird": "^2.10.2",
+    "debug": "^2.2.0",
+    "del": "^2.0.2",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^6.1.2",
+    "gulp-eslint": "^1.1.1",
+    "gulp-if": "^2.0.0",
+    "gulp-jasmine": "^2.1.0",
+    "gulp-load-plugins": "^1.0.0",
+    "gulp-plumber": "^1.0.1",
+    "merge-stream": "^1.0.0",
+    "methods": "^1.1.1",
+    "mock-promises": "^0.6.0",
+    "npm": "^3.4.1",
+    "phantomjs": "^1.9.8",
+    "require-dir": "^0.3.0",
+    "rosie": "^1.2.0",
+    "run-sequence": "^1.1.4",
+    "selenium-standalone": "^4.7.0",
+    "strong-wait-till-listening": "^1.0.2",
+    "supertest": "1.1.0",
+    "webdriverio": "^3.2.5",
+    "webpack-stream": "^3.1.0"
+  },
+  "scripts": {
+    "test": "gulp spec"
+  }
+}
