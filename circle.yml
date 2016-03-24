@@ -3,7 +3,7 @@ machine:
     version: oraclejdk8
 dependencies:
   override:
-    - npm install
+    - cd acceptance/ && npm install
 test:
   override:
     - ./gradlew test
