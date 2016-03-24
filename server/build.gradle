@@ -24,6 +24,7 @@ repositories {
 
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter')
+	compile('org.springframework.boot:spring-boot-starter-web')
 
 	testCompile('junit:junit:4.12')
 	testCompile('org.assertj:assertj-core:3.3.0')
