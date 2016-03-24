@@ -9,6 +9,7 @@ The web UI acceptance testing setup has been inspired and is based on [React Sta
 * Junit, Mockito, AssertJ - for unit testing of the server
 * Gulp for building and running UI acceptance tests
 * Jasmine, Webdriver.io, Selenium Standalone - for UI acceptance testing
+* CircleCI - for CI/CD
 
 ## Project structure
 
