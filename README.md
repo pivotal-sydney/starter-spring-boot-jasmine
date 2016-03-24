@@ -33,7 +33,7 @@ gradle gulp_default
 
 The build will also make sure that gulp and npm packages are installed.
 
-However, if you prefer to run gulp directly from the `acceptance` folder, please make sure you have gulp and node version 4+ installed. The from the `acceptance` folder run:
+However, if you prefer to run gulp directly from the `acceptance` folder, please make sure you have gulp and node installed. Then from the `acceptance` folder run:
 ```
 npm install
 ```
