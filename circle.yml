@@ -1,6 +1,9 @@
 machine:
   java:
     version: oraclejdk8
+dependencies:
+  override:
+    - npm install
 test:
   override:
     - ./gradlew test
